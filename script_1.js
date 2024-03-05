@@ -27,19 +27,22 @@ const cards = [
     'Карточка-5',
 ]
 
+
+
+
+// Завдання 3
+
 const cardToRemove = 'Карточка-3';
 cards.splice(2, 1);
 
+// Завдання 4
+
 const cardToInset = 'Карточка-6';
 cards.splice(5, 5,  'Карточка-6');
+
+// Завдання 5
 
 const cardToUpdate = 'Карточка-4';
 cards.splice(2, 1, 'Нова карта');
 
 console.log(cards);
-
-// Завдання 3
-
-// Завдання 4
-
-// Завдання 5
